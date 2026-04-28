@@ -1,0 +1,779 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <title>Tomas Novotny | MES Process Coordinator</title>
+  <meta name="description" content="Professional portfolio of MES Process Coordinator specializing in manufacturing systems and process optimization." />
+  <meta name="robots" content="index, follow" />
+  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y2JC9KECHP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Y2JC9KECHP');
+  </script>
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="https://tomasn123.github.io/Portfolio/" />
+  <meta property="og:title" content="Tomas Novotny | MES Process Coordinator" />
+  <meta property="og:description" content="Professional portfolio of MES Process Coordinator." />
+  <meta property="og:image" content="https://tomasn123.github.io/Portfolio/metadata/preview.JPG" />
+
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="Tomas Novotny | MES Process Coordinator" />
+  <meta property="twitter:image" content="https://tomasn123.github.io/Portfolio/metadata/preview.JPG" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="assets/img/favicon/manifest.json" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>  
+
+  <div class="glow-point p1"></div>
+  <div class="glow-point p2"></div>
+  <div class="glow-point p3"></div>
+  <!-- Navigation -->
+  <nav class="bubble-nav-container">
+    <div class="bubble-wrapper">
+      
+      <a href="#intro" class="bubble-item">
+        <div class="bubble-icon"><i class="fa fa-home"></i></div>
+        <span class="bubble-label">Home</span>
+      </a>
+
+      <a href="#about" class="bubble-item">
+        <div class="bubble-icon"><i class="fa fa-user"></i></div>
+        <span class="bubble-label">About</span>
+      </a>
+
+      <a href="#experience" class="bubble-item">
+        <div class="bubble-icon"><i class="fa fa-briefcase"></i></div>
+        <span class="bubble-label">Experience</span>
+      </a>
+
+      <a href="#projects-skills" class="bubble-item">
+        <div class="bubble-icon"><i class="fa fa-rocket"></i></div>
+        <span class="bubble-label">Projects &amp; Skills</span>
+      </a>
+
+      <a href="#certifications" class="bubble-item">
+        <div class="bubble-icon"><i class="fa fa-certificate"></i></div>
+        <span class="bubble-label">Certifications</span>
+      </a>
+
+      <a href="#education" class="bubble-item">
+        <div class="bubble-icon"><i class="fa fa-graduation-cap"></i></div>
+        <span class="bubble-label">Education</span>
+      </a>
+
+      <a href="#contact" class="bubble-item">
+        <div class="bubble-icon"><i class="fa fa-envelope"></i></div>
+        <span class="bubble-label">Contact</span>
+      </a>
+
+    </div>
+  </nav>
+
+  <!-- Global background (torus, fixed) -->
+  <div id="canvas-container"></div>
+
+  <main>
+    <!-- Intro -->
+    <section id="intro" class="section scrollspy full-height">
+      <iframe src="factory/index.html" id="factory-frame" tabindex="-1" aria-hidden="true"></iframe>
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Tomáš Novotný</span></h2>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <h5>MES specialist working with internal tools, improving processes, and keeping systems reliable, with a strong interest in Kubernetes and DevOps.</h5>
+            </div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/tomas-novotny-542501388" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/TomasN123/" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <p>
+          I started my journey in PLC automation, but I quickly realized that the true potential of Industry 4.0 lies in data and the cloud. Today, I manage complex MES systems for a plant with 1,500 employees, implementing solutions that streamline workflows and boost production efficiency.
+        </p>
+        <p>
+          Over time, my tech stack has evolved from TIA Portal into a comprehensive toolkit including MES, Kubernetes, Docker, JavaScript, and AWS, backed by several professional Certifications. My experience living and studying abroad during two Erasmus+ programs (Portugal and Slovenia) has shaped my ability to adapt to new environments and solve problems with a global perspective. I value agility and the ability to deliver high-quality results regardless of the setting.
+        </p>
+        <p>
+          When I’m away from the terminal, I’m an athlete and a traveler. I thrive on challenges, whether it’s rock climbing, conquering mountain peaks, or learning Italian as a hobby. I’m constantly seeking the perfect balance between the precision of an engineer and the freedom of a digital nomad.
+        </p>
+        <p>
+          I am looking for an opportunity to work in a challenging position that combines my engineering skills with modern technologies and offers professional development, interesting experiences, and personal growth.
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Experience -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+
+        <div class="exp-company-header">
+          <a href="https://www.aumovio.com/en.html" target="_blank" class="exp-company-logo-link">
+            <img src="assets/img/aumovio2.jpeg" alt="Aumovio logo" class="exp-company-logo" />
+          </a>
+          <div class="exp-company-info">
+            <div class="exp-company-name">
+              <a href="https://www.aumovio.com/en.html" target="_blank" class="hoverline">Aumovio</a>
+              <span class="exp-company-formerly">(formerly Continental AG)</span>
+            </div>
+            <div class="exp-company-meta">Zvolen, Slovakia &nbsp;·&nbsp; May 2022 – Present</div>
+          </div>
+        </div>
+
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="card timeline-card">
+              <div class="card-content">
+                <div class="timeline-role-header">
+                  <span class="timeline-role">MES Process Coordinator</span>
+                  <span class="timeline-badge badge-fulltime">Full-time</span>
+                </div>
+                <div class="timeline-period">July 2026 – Present</div>
+                <ul>
+                  <li><b>System Ownership:</b> Responsible for the full lifecycle and administration of the MES (Camline) and internal applications for a plant with 1,500 employees.</li>
+                  <li><b>Team Leadership:</b> Managing a technical team (IT/MES Engineer and interns), including task delegation, technical onboarding, and professional mentoring.</li>
+                  <li><b>Cyber Security (PCSA):</b> Acting as local security consultant; implementing global cybersecurity standards for the plant’s infrastructure.</li>
+                  <li><b>Full-stack Industrial Development:</b> Docker, Kubernetes, Node-RED, RabbitMQ, JavaScript and more to build robust, scalable solutions.</li>
+                  <li><b>Data Management:</b> Managing complex production data within Oracle and PostgreSQL environments.</li>
+                  <li><b>Cross-Plant Innovation:</b> Designed and implemented custom features for traceability and process reliability, later adopted across other plants.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="card timeline-card">
+              <div class="card-content">
+                <div class="timeline-role-header">
+                  <span class="timeline-role">MES Intern</span>
+                  <span class="timeline-badge badge-parttime">Part-time</span>
+                </div>
+                <div class="timeline-period">March 2025 – June 2026</div>
+                <ul>
+                  <li><b>Technology Shift:</b> Transitioned from PLC programming to exploring MES and containerization to better understand the future of automated manufacturing.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="card timeline-card">
+              <div class="card-content">
+                <div class="timeline-role-header">
+                  <span class="timeline-role">PLC Developer Intern</span>
+                  <span class="timeline-badge badge-parttime">Part-time</span>
+                </div>
+                <div class="timeline-period">May 2022 – February 2025</div>
+                <ul>
+                  <li><b>PLC Expert Team:</b> Integrated as the sole intern within a 5-member expert maintenance team, contributing to programming and optimization of production lines.</li>
+                  <li><b>Automation Engineering:</b> Developed PLC and HMI logic using Siemens TIA Portal / Simatic Manager.</li>
+                  <li><b>Workflow Optimization:</b> Programmed custom Excel Macros to automate technical documentation and data analysis.</li>
+                  <li><b>Remote Operations:</b> Maintained all responsibilities while studying abroad on Erasmus+ for 1 year (6 months Portugal, 6 months Slovenia).</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects & Skills -->
+    <section id="projects-skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects &amp; Skills</h3>
+      <div class="container">
+        <div class="row">
+
+          <!-- ROS 2 Maze Solver -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="ROS 2 Flatland Maze Solver" src="assets/img/ros2.gif" style="height: 100%; width: 100%; object-fit: cover;" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">ROS 2 Maze Solver<i class="mdi-navigation-more-vert right"></i></span>
+                <p>Autonomous robot navigation in 2D mazes using SLAM and Nav2 on ROS 2.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i><a href="https://github.com/jurajzilka/ros2-flatland-maze-solver" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey right" style="margin-right: 8px;" onclick="event.stopPropagation()"><i class="fa fa-github"></i></a></span>
+                <ul>
+                  <li><b>Tools:</b> ROS 2 Humble, SLAM Toolbox, Nav2, Flatland, C++, Python</li>
+                  <li>Full autonomous pipeline: LiDAR-based SLAM, occupancy grid mapping, and path planning.</li>
+                  <li>Robot explores unknown maze environments, builds a map, then navigates to the goal.</li>
+                  <li>Simulated in Flatland 2D with AMCL localization and Nav2 stack integration.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tic-Tac-Toe Qt -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Tic-Tac-Toe Qt" src="assets/img/tictactoe.png" style="height: 100%; width: 100%; object-fit: cover;" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Tic-Tac-Toe Qt (C++)<i class="mdi-navigation-more-vert right"></i></span>
+                <p>Networked Tic-Tac-Toe with GUI and client-server architecture over TCP/IP.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i><a href="https://github.com/TomasN123/Tic-Tac-Toe-on-Qt-C-with-GUI-Server---Client" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey right" style="margin-right: 8px;" onclick="event.stopPropagation()"><i class="fa fa-github"></i></a></span>
+                <ul>
+                  <li><b>Tools:</b> C++, Qt Framework, QTcpServer, QTcpSocket, qmake</li>
+                  <li>Two players compete over a TCP/IP connection with real-time board synchronization.</li>
+                  <li>Full GUI built in Qt with separate server and client application roles.</li>
+                  <li>Handles connection setup, turn management, and win/draw detection over the network.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- TIA Portal + Factory I/O -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="TIA Portal Factory I/O" src="assets/img/factoryio.png" style="height: 100%; width: 100%; object-fit: cover;" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">TIA Portal + Factory I/O<i class="mdi-navigation-more-vert right"></i></span>
+                <p>PLC automation examples integrating Factory I/O simulation with TIA Portal and WinCC SCADA.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i><a href="https://github.com/TomasN123/TIA-Portal-FactoryIO-examples" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey right" style="margin-right: 8px;" onclick="event.stopPropagation()"><i class="fa fa-github"></i></a></span>
+                <ul>
+                  <li><b>Tools:</b> TIA Portal, Factory I/O, WinCC SCADA, S7-PLCSIM Advanced</li>
+                  <li>Practical models developed as part of a Master's Thesis at University of Žilina.</li>
+                  <li>Full integration between 3D simulation and real PLC logic with SCADA visualisation.</li>
+                  <li>Covers conveyor control, sorting, pick &amp; place and other industrial scenarios.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- TIA Portal + SIMATIC S210 -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="TIA Portal SIMATIC S210" src="assets/img/s210.png" style="height: 100%; width: 100%; object-fit: cover;" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">TIA Portal + SINAMICS S210<i class="mdi-navigation-more-vert right"></i></span>
+                <p>Motion control examples for SINAMICS S210 servo drive with SIMATIC S7-1500 PLC.</p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i><a href="https://github.com/TomasN123/TIA-Portal-with-SIMATIC-S210-examples" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey right" style="margin-right: 8px;" onclick="event.stopPropagation()"><i class="fa fa-github"></i></a></span>
+                <ul>
+                  <li><b>Tools:</b> TIA Portal V16, S7-1516F PLC, SINAMICS S210, TP700 HMI, PLCopen motion blocks</li>
+                  <li>Educational examples developed as Bachelor's Thesis at University of Žilina.</li>
+                  <li>Covers homing, positioning, velocity and torque control of SIMOTICS S-1FK2 servomotor.</li>
+                  <li>HMI panel for real-time parameter monitoring and manual axis control.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 5 PLACEHOLDER -->
+
+        </div>
+      </div>
+
+      <div class="skills-section-break"><span>Skills</span></div>
+
+      <div class="container">
+
+        <div class="skills-category">
+          <div class="skills-cat-title">DevOps &amp; Cloud Infrastructure</div>
+          <div class="skills-grid">
+            <div class="skill-item"><img src="assets/img/kubernetes.png" alt="Kubernetes" /><span class="skill-name">Kubernetes</span></div>
+            <div class="skill-item"><img src="assets/img/docker.png" alt="Docker" /><span class="skill-name">Docker</span></div>
+            <div class="skill-item"><img src="assets/img/aws.png" alt="AWS" /><span class="skill-name">AWS</span></div>
+            <div class="skill-item"><img src="assets/img/linux.png" alt="Linux" /><span class="skill-name">Linux</span></div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <div class="skills-cat-title">Software Development</div>
+          <div class="skills-grid">
+            <div class="skill-item"><img src="assets/img/python.png" alt="Python" /><span class="skill-name">Python</span></div>
+            <div class="skill-item"><img src="assets/img/c.png" alt="C" /><span class="skill-name">C</span></div>
+            <div class="skill-item"><img src="assets/img/cpp.png" alt="C++" /><span class="skill-name">C++</span></div>
+            <div class="skill-item"><img src="assets/img/nodered.png" alt="JavaScript / Node-RED" /><span class="skill-name">JS / Node-RED</span></div>
+            <div class="skill-item"><img src="assets/img/html.png" alt="HTML" /><span class="skill-name">HTML</span></div>
+            <div class="skill-item"><img src="assets/img/css.png" alt="CSS" /><span class="skill-name">CSS</span></div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <div class="skills-cat-title">Industrial Automation / OT Systems</div>
+          <div class="skills-grid">
+            <div class="skill-item"><img src="assets/img/tia-portal.png" alt="TIA Portal" /><span class="skill-name">TIA Portal</span></div>
+            <div class="skill-item"><img src="assets/img/simatic.jpg" alt="SIMATIC Manager" /><span class="skill-name">SIMATIC</span></div>
+            <div class="skill-item"><img src="assets/img/wincc.png" alt="WinCC" /><span class="skill-name">WinCC</span></div>
+            <div class="skill-item"><img src="assets/img/mes.jpg" alt="MES Systems" /><span class="skill-name">MES Systems</span></div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <div class="skills-cat-title">Data, Databases &amp; Messaging</div>
+          <div class="skills-grid">
+            <div class="skill-item"><img src="assets/img/oracle.png" alt="Oracle" /><span class="skill-name">Oracle</span></div>
+            <div class="skill-item"><img src="assets/img/postgresql.png" alt="PostgreSQL" /><span class="skill-name">PostgreSQL</span></div>
+            <div class="skill-item"><img src="assets/img/rabbitmq.png" alt="RabbitMQ" /><span class="skill-name">RabbitMQ</span></div>
+            <div class="skill-item"><img src="assets/img/matlab.png" alt="MATLAB" /><span class="skill-name">MATLAB</span></div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <div class="skills-cat-title">Monitoring &amp; Collaboration Tools</div>
+          <div class="skills-grid">
+            <div class="skill-item"><img src="assets/img/prometheus.png" alt="Prometheus" /><span class="skill-name">Prometheus</span></div>
+            <div class="skill-item"><img src="assets/img/grafana.png" alt="Grafana" /><span class="skill-name">Grafana</span></div>
+            <div class="skill-item"><img src="assets/img/loki.png" alt="Loki" /><span class="skill-name">Loki</span></div>
+            <div class="skill-item"><img src="assets/img/jira.png" alt="Jira" /><span class="skill-name">Jira</span></div>
+            <div class="skill-item"><img src="assets/img/confluence.png" alt="Confluence" /><span class="skill-name">Confluence</span></div>
+            <div class="skill-item"><img src="assets/img/github.png" alt="GitHub" /><span class="skill-name">GitHub</span></div>
+            <div class="skill-item"><img src="assets/img/microsoft365.jpg" alt="Microsoft 365" /><span class="skill-name">MS 365</span></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section scrollspy">
+      <h3 class="page-title white-text teal">Certifications</h3>
+      <div class="container">
+
+        <div class="cert-grid">
+
+          <div class="cert-card">
+            <div class="cert-title">AWS Certified AI Practitioner</div>
+            <img src="assets/img/certifications/awsAI.png" alt="AWS Certified AI Practitioner" />
+            <span class="cert-expand-hint"><i class="fa fa-expand"></i></span>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-title">AWS Certified CloudOps Engineer – Associate</div>
+            <img src="assets/img/certifications/awsCloudOps.png" alt="AWS Certified CloudOps Engineer – Associate" />
+            <span class="cert-expand-hint"><i class="fa fa-expand"></i></span>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-title">AWS Certified Cloud Practitioner</div>
+            <img src="assets/img/certifications/awsCP.png" alt="AWS Certified Cloud Practitioner" />
+            <span class="cert-expand-hint"><i class="fa fa-expand"></i></span>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-title">Industry 4.0</div>
+            <img src="assets/img/certifications/I40.png" alt="Industry 4.0" />
+            <span class="cert-expand-hint"><i class="fa fa-expand"></i></span>
+          </div>
+
+        </div>
+
+        <div class="cert-credly">
+          <i class="fa fa-external-link"></i>
+          <a href="https://www.credly.com/users/tomas-novotny.37aee5ec" target="_blank" class="hoverline">
+            View &amp; verify all badges on Credly
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Cert lightbox -->
+    <div id="cert-modal" class="cert-modal">
+      <div class="cert-modal-overlay"></div>
+      <div class="cert-modal-content">
+        <button class="cert-modal-close"><i class="fa fa-times"></i></button>
+        <img id="cert-modal-img" src="" alt="" />
+        <a href="https://www.credly.com/users/tomas-novotny.37aee5ec" target="_blank" class="cert-modal-credly">
+          <i class="fa fa-external-link"></i> Verify on Credly
+        </a>
+      </div>
+    </div>
+
+    <!-- Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+
+          <div class="col s12 m6 l4">
+            <div class="card edu-card">
+              <div class="edu-card-header">
+                <a href="https://www.uniza.sk/index.php/en/" target="_blank">
+                  <img src="assets/img/SYMBOL_T.jpg" alt="UNIZA logo" class="edu-logo" />
+                </a>
+                <div>
+                  <span class="edu-school-name">University of Žilina</span>
+                  <span class="edu-degree">Master's · Process Control</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="edu-meta">
+                  <span class="edu-years">2023 – 2025</span>
+                  <span class="edu-grade">Exam B &nbsp;·&nbsp; Thesis A</span>
+                </div>
+                <ul>
+                  <li><b>Thesis:</b> Integration of Factory I/O simulation with Siemens PLC for advanced industrial training (Grade: A)</li>
+                  <li><b>Key focus:</b> Python (ML &amp; Computer Vision), ROS 2, Safety functions for S7-1500</li>
+                </ul>
+                <div class="edu-erasmus">
+                  <div class="edu-erasmus-header">
+                    <i class="fa fa-exchange"></i>
+                    Erasmus+ Study Exchange
+                  </div>
+                  <ul>
+                    <li>University of Porto, Portugal (2023 – 2024)</li>
+                    <li>University of Maribor, Slovenia (2024 – 2025)</li>
+                    <li>Study in a foreign language, adapted to two different academic systems, remote work for Continental-Aumovio</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card edu-card">
+              <div class="edu-card-header">
+                <a href="https://www.uniza.sk/index.php/en/" target="_blank">
+                  <img src="assets/img/SYMBOL_T.jpg" alt="UNIZA logo" class="edu-logo" />
+                </a>
+                <div>
+                  <span class="edu-school-name">University of Žilina</span>
+                  <span class="edu-degree">Bachelor's · Automation</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="edu-meta">
+                  <span class="edu-years">2020 – 2023</span>
+                  <span class="edu-grade">Exam A &nbsp;·&nbsp; Thesis A</span>
+                </div>
+                <ul>
+                  <li><b>Thesis:</b> Control of Sinamics S210 servomotors using Siemens S7-1500</li>
+                  <li><b>Key focus:</b> OOP in C++, Matlab, Web basics (HTML/CSS)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card edu-card">
+              <div class="edu-card-header">
+                <a href="https://spsjm.sk/" target="_blank">
+                  <img src="assets/img/spsjm.png" alt="SPŠJM logo" class="edu-logo" />
+                </a>
+                <div>
+                  <span class="edu-school-name">SPŠ Jozefa Murgaša</span>
+                  <span class="edu-degree">High School · Industrial Informatics</span>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="edu-meta">
+                  <span class="edu-years">2016 – 2020</span>
+                </div>
+                <ul>
+                  <li><b>Graduation project:</b> Design and PLC control of a complex traffic intersection (S7-1200)</li>
+                  <li><b>Key focus:</b> C, S7-1200 PLC in TIA Portal, logical systems, sensors</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section scrollspy full-height">
+          <h3 class="page-title white-text teal">Contact</h3>
+          <div class="container">
+            <p>
+              <a aria-label="Email button" href="mailto:1novotnytomas@gmail.com" target="_blank" data-position="top" data-tooltip="Email" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-envelope"></i></a>
+              <a aria-label="Email text" href="mailto:1novotnytomas@gmail.com" class="hoverline">1novotnytomas@gmail.com</a>
+            </p>
+            
+            <p>
+              <a aria-label="GitHub button" href="http://github.com/TomasN123" target="_blank" data-position="top" data-tooltip="GitHub" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i></a>
+              <a aria-label="Github text" href="http://github.com/TomasN123" class="hoverline" target="_blank">github.com/TomasN123</a>
+            </p>
+            
+            <p>
+              <a aria-label="LinkedIn button" href="https://www.linkedin.com/in/tomas-novotny-542501388" target="_blank" data-position="top" data-tooltip="LinkedIn" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-linkedin"></i></a>
+              <a aria-label="LinkedIn text" href="https://www.linkedin.com/in/tomas-novotny-542501388" class="hoverline" target="_blank">linkedin.com/in/tomas-novotny-542501388</a>
+            </p>
+            
+            <p>
+              <a href="assets/CV/Tomáš Novotný CV_ENG.pdf" download class="btn-floating btn-large waves-effect waves-light blue-grey" aria-label="Download CV button"><i class="fa fa-download"></i></a>
+              <a href="assets/CV/Tomáš Novotný CV_ENG.pdf" download class="hoverline" aria-label="Download CV text">Download CV</a>
+            </p>
+          </div>
+        </section>
+  </main>
+
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["MES Process Coordinator", "Developer", "Database Engineer", "Software Tester", "Fast Learner"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      $(".button-collapse").sideNav({
+        menuWidth: 190, 
+        edge: "left", 
+        closeOnClick: true 
+      })
+    })
+  </script>
+
+<script>
+    const container = document.getElementById('canvas-container');
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    renderer.setClearColor(0x0f051a, 1); 
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    container.appendChild(renderer.domElement);
+
+    let mouse = new THREE.Vector2(0, 0);
+    window.addEventListener('mousemove', (e) => {
+        mouse.x = (e.clientX / window.innerWidth) * 2 - 1;
+        mouse.y = -(e.clientY / window.innerHeight) * 2 + 1;
+    });
+
+    window.addEventListener('resize', () => {
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+    });
+
+    const geometry = new THREE.TorusKnotGeometry(11, 3, 200, 30);
+    const originalPositions = geometry.attributes.position.array.slice();
+    const material = new THREE.LineBasicMaterial({ color: 0xa78bfa, transparent: true, opacity: 0.5 });
+    const torusKnot = new THREE.LineSegments(geometry, material);
+    scene.add(torusKnot);
+
+    const meteorsGroup = new THREE.Group();
+    const meteorGeometry = new THREE.IcosahedronGeometry(0.7, 0);
+
+    for (let i = 0; i < 80; i++) {
+        const meteorMaterial = new THREE.MeshBasicMaterial({
+            color: 0xa78bfa,
+            transparent: true,
+            opacity: 0.35,
+            wireframe: true
+        });
+
+        const meteor = new THREE.Mesh(meteorGeometry, meteorMaterial);
+
+        meteor.position.set(
+            (Math.random() - 0.5) * 300,
+            (Math.random() - 0.5) * 200,
+            -50 - Math.random() * 150
+        );
+
+        const s = Math.random() * 0.8 + 0.6;
+        meteor.scale.set(s, s, s);
+        
+        meteor.userData = {
+            speed: Math.random() * 0.35 + 0.1, 
+            rotSpeed: (Math.random() - 0.5) * 0.04,
+            offset: Math.random() * 100 
+        };
+
+        meteorsGroup.add(meteor);
+    }
+    scene.add(meteorsGroup);
+
+    camera.position.z = 40;
+
+    function animate() {
+        requestAnimationFrame(animate);
+
+        const time = Date.now() * 0.001;
+
+        torusKnot.scale.set(2, 2, 2);
+        torusKnot.rotation.x += 0.0007;
+        torusKnot.rotation.y += 0.0007;
+
+        meteorsGroup.children.forEach(meteor => {
+            const data = meteor.userData;
+
+            meteor.position.z += data.speed;
+            meteor.position.x += Math.sin(time + data.offset) * 0.04;
+            meteor.position.y += Math.cos(time + data.offset) * 0.04;
+            meteor.rotation.x += data.rotSpeed;
+            meteor.rotation.y += data.rotSpeed;
+
+            if (meteor.position.z > 25) {
+                meteor.position.z = -180;
+                meteor.position.x = (Math.random() - 0.5) * 300;
+                meteor.position.y = (Math.random() - 0.5) * 200;
+            }
+        });
+
+        meteorsGroup.position.x += (mouse.x * 8 - meteorsGroup.position.x) * 0.04;
+        meteorsGroup.position.y += (mouse.y * 8 - meteorsGroup.position.y) * 0.04;
+
+        const pos = geometry.attributes.position.array;
+        for (let i = 0; i < pos.length; i += 3) {
+            let vx = pos[i], vy = pos[i+1], vz = pos[i+2];
+            let ox = originalPositions[i], oy = originalPositions[i+1], oz = originalPositions[i+2];
+
+            let worldV = new THREE.Vector3(vx, vy, vz).applyMatrix4(torusKnot.matrixWorld);
+            let mouse3D = new THREE.Vector3(mouse.x * 50, mouse.y * 50, 18); 
+            let dist = worldV.distanceTo(mouse3D);
+
+            if (dist < 14) { 
+                let force = (14 - dist) / 14; 
+                let dir = new THREE.Vector3().subVectors(worldV, mouse3D).normalize();
+                pos[i] += dir.x * force * 0.25;
+                pos[i+1] += dir.y * force * 0.25;
+                pos[i+2] += dir.z * force * 0.25;
+            } else {
+                pos[i] += (ox - vx) * 0.09;
+                pos[i+1] += (oy - vy) * 0.09;
+                pos[i+2] += (oz - vz) * 0.09;
+            }
+        }
+        
+        geometry.attributes.position.needsUpdate = true;
+        renderer.render(scene, camera);
+    }
+    animate();
+</script>
+  
+  <script>
+      const coords = { x: 0, y: 0 };
+      const circles = document.querySelectorAll(".glow-point");
+
+      circles.forEach(function (circle) {
+          circle.x = 0;
+          circle.y = 0;
+      });
+
+      window.addEventListener("mousemove", function(e) {
+          coords.x = e.clientX;
+          coords.y = e.clientY;
+      });
+
+      function animateCircles() {
+          let x = coords.x;
+          let y = coords.y;
+
+          circles.forEach(function (circle, index) {
+              const ratio = 0.15 - (index * 0.04);
+              circle.x += (x - circle.x) * ratio;
+              circle.y += (y - circle.y) * ratio;
+              circle.style.left = circle.x + "px";
+              circle.style.top = circle.y + "px";
+          });
+
+          requestAnimationFrame(animateCircles);
+      }
+
+      animateCircles();
+  </script>
+
+  <script>
+    document.querySelectorAll('.skill-item').forEach(function(item) {
+      item.addEventListener('click', function() {
+        this.classList.toggle('active');
+      });
+    });
+
+    // Certificate lightbox
+    var certModal = document.getElementById('cert-modal');
+    var certModalImg = document.getElementById('cert-modal-img');
+
+    document.querySelectorAll('.cert-card').forEach(function(card) {
+      card.addEventListener('click', function() {
+        var img = card.querySelector('img');
+        certModalImg.src = img.src;
+        certModalImg.alt = img.alt;
+        certModal.classList.add('open');
+      });
+    });
+
+    document.querySelector('.cert-modal-overlay').addEventListener('click', function() {
+      certModal.classList.remove('open');
+    });
+
+    document.querySelector('.cert-modal-close').addEventListener('click', function() {
+      certModal.classList.remove('open');
+    });
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') certModal.classList.remove('open');
+    });
+
+    document.querySelectorAll('.card-reveal').forEach(function(reveal) {
+      reveal.addEventListener('click', function(e) {
+        if (e.target.closest('a') || e.target.closest('button')) return;
+        var closeBtn = reveal.querySelector('.mdi-navigation-close');
+        if (closeBtn) closeBtn.click();
+      });
+    });
+  </script>
+
+
+</body>
+
+</html>
