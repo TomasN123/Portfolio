@@ -4251,21 +4251,6 @@ void main() {
         .sfh-root .sfh-spark { width: 100%; height: 28px; margin-top: 6px; }
 
         @media (max-width: 720px) {
-          .sfh-root .sfh-thr, .sfh-root .sfh-lat, .sfh-root .sfh-log { display: none; }
-          .sfh-root .sfh-title { max-width: 180px; }
-        }
-
-        @media (max-width: 480px) {
-          /* Title (top-left) — smaller, aby nenarážalo na phase */
-          .sfh-root .sfh-title { top: 14px; left: 14px; max-width: 140px; }
-          .sfh-root .sfh-title .t1 { font-size: 8px; letter-spacing: 1.5px; margin-bottom: 4px; }
-          .sfh-root .sfh-title .t2 { font-size: 12px; line-height: 1.3; }
-          /* Phase (top-right) — zmenšená, aby sa vošla vedľa title */
-          .sfh-root .sfh-phase { top: 14px; right: 14px; min-width: 0; padding: 8px 10px; }
-          .sfh-root .sfh-phase .sfh-label { font-size: 8px; letter-spacing: 1.5px; }
-          .sfh-root .sfh-phase .sfh-value { font-size: 11px; }
-          /* OEE (bottom-left) — jemne zmenšená */
-          .sfh-root .sfh-oee { bottom: 14px; left: 14px; min-width: 140px; }
-          .sfh-root .sfh-oee .sfh-value { font-size: 18px; }
+          .sfh-root .sfh-hud { display: none; }
         }
       `}),rt.jsx("div",{className:"sfh-grid-bg"}),rt.jsx("div",{ref:p,style:{position:"absolute",inset:0}}),rt.jsx("div",{className:"sfh-overlay"}),t&&rt.jsxs("div",{className:"sfh-hud",children:[i&&rt.jsxs("div",{className:"sfh-card sfh-title",children:[rt.jsx("div",{className:"t1",children:r}),rt.jsx("div",{className:"t2",children:s})]}),rt.jsxs("div",{className:"sfh-card sfh-phase",children:[rt.jsxs("div",{className:"sfh-label",children:[rt.jsx("span",{className:"sfh-phase-dot"}),rt.jsx("span",{ref:m.phase,children:"Initializing"})]}),rt.jsx("div",{className:"sfh-value",style:{fontSize:13,fontWeight:400},ref:m.phaseDetail,children:"Awaiting deployment"})]}),rt.jsxs("div",{className:"sfh-card sfh-oee",children:[rt.jsx("div",{className:"sfh-label",children:"OEE"}),rt.jsxs("div",{className:"sfh-value",children:[rt.jsx("span",{ref:m.oee,children:"60"}),rt.jsx("span",{className:"sfh-unit",children:"%"})]}),rt.jsxs("svg",{className:"sfh-spark",viewBox:"0 0 180 28",preserveAspectRatio:"none",children:[rt.jsx("path",{ref:m.sparkPath,d:"M0 20 L180 20",fill:"none",stroke:f.hudAccent,strokeWidth:"1.5",strokeLinejoin:"round"}),rt.jsx("path",{ref:m.sparkArea,d:"M0 28 L0 20 L180 20 L180 28 Z",fill:"rgba(178,137,255,0.15)"})]})]}),rt.jsxs("div",{className:"sfh-card sfh-thr",children:[rt.jsx("div",{className:"sfh-label",children:"Throughput"}),rt.jsxs("div",{className:"sfh-value",children:[rt.jsx("span",{ref:m.thr,children:"0"}),rt.jsx("span",{className:"sfh-unit",children:"u/h"})]})]}),rt.jsxs("div",{className:"sfh-card sfh-lat",children:[rt.jsx("div",{className:"sfh-label",children:"Latency"}),rt.jsxs("div",{className:"sfh-value",children:[rt.jsx("span",{ref:m.lat,children:"—"}),rt.jsx("span",{className:"sfh-unit",children:"ms"})]})]}),rt.jsxs("div",{className:"sfh-card sfh-log",children:[rt.jsx("div",{className:"sfh-label",children:"System log"}),rt.jsx("div",{ref:m.log})]})]})]})}function tD(){return rt.jsx("div",{style:{width:"100vw",height:"100vh",margin:0,padding:0},children:rt.jsx(eD,{})})}qd.createRoot(document.getElementById("root")).render(rt.jsx(cE.StrictMode,{children:rt.jsx(tD,{})}));
