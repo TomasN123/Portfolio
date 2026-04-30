@@ -1013,20 +1013,17 @@ a.hoverline:hover { border-bottom: 3px solid #a78bfa !important; }
 }
 
 @media (max-width: 992px) {
-  main { padding-left: 0; padding-top: 64px; }
+  main { padding-left: 0; }
   ul.side-nav a { line-height: 100%; padding: 0; width: 100%; }
-  nav { background: #fff; height: 64px; position: absolute; }
-  nav a.button-collapse, nav a.button-collapse i { color: #009688; height: 56px; line-height: 56px; }
   h3 { padding: 20px 30px; margin-bottom: 40px; }
   .container { margin: 0 auto; }
-  nav.hide-on-large.only.trigger { display: block; position: fixed; top: 0; z-index: 2; }
-  .name-title { display: block; height: 100%; padding-top: 15px; text-align: center; width: 100%; position: absolute; }
-  .name-title > span, .name-title > a { position: relative; line-height: 20px; }
-  .name-title a { font-size: 22px; display: block; }
-  .name-title span { display: block; font-size: 14px; }
-  h3, .container { position: relative; top: 64px; }
-  section#intro { margin-bottom: -64px; }
   .card .role { position: relative; right: initial; top: initial; }
+}
+
+@media (max-width: 500px) {
+  .bubble-nav-container { top: 12px; }
+  .bubble-wrapper { gap: 8px; }
+  .bubble-icon { width: 38px; height: 38px; font-size: 16px; }
 }
 
 @media (max-width: 600px) {
