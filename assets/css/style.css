@@ -12,6 +12,7 @@ body {
   font-size: 18px;
   overflow-x: hidden;
   overscroll-behavior: none;
+  isolation: isolate;
 }
 
 a { color: #a78bfa !important; }
